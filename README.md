@@ -1,2 +1,25 @@
-# problem-solving-journey
-A weekly structured journey to improve my problem-solving skills using JavaScript, starting from the basics and advancing step-by-step. Practicing regularly with problems from LeetCode and other platforms.
+# 🧠 Problem Solving Journey
+
+This repository contains my problem-solving practice using JavaScript.
+
+## ✅ Features
+
+- 🧩 Organized by problem number
+- 📚 Readable explanations
+- 🧪 Jest test cases
+- 🧠 Easy to practice and clone
+
+## 🛠️ How to Use
+
+1. Clone the repo:
+  ```bash
+  git clone https://github.com/frksarkar/problem-solving-journey.git
+  cd problem-solving-sourney
+  npm install
+  npm test
+  ```
+
+## 📌 Platforms
+
+- LeetCode
+- Codeforces (coming later)
