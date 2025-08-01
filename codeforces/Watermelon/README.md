@@ -1,4 +1,4 @@
-# 001. Watermelon (Codeforces)
+# Watermelon (Codeforces)
 
 ## 🔗 Link:
 
@@ -27,3 +27,19 @@ Pete and Billy want to divide a watermelon of weight `w` into two **even** parts
 -   Otherwise, it's not.
 
 ### Example:
+
+Input: 8
+Output: YES
+
+## 🧪 Test Cases:
+
+```js
+canDivideWatermelon(8); // "YES"
+canDivideWatermelon(3); // "NO"
+canDivideWatermelon(4); // "YES"
+```
+
+## 🕒 Complexity:
+
+-   Time: O(1)
+-   Space: O(1)
