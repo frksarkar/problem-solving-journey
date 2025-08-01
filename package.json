@@ -1,0 +1,23 @@
+{
+	"name": "problem-solving-journey",
+	"version": "1.0.0",
+	"description": "Problem solving repo using JavaScript with Jest testing framework.",
+	"homepage": "https://github.com/frksarkar/problem-solving-journey#readme",
+	"bugs": {
+		"url": "https://github.com/frksarkar/problem-solving-journey/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/frksarkar/problem-solving-journey.git"
+	},
+	"license": "ISC",
+	"author": "omar faruk sarkar",
+	"type": "commonjs",
+	"main": "index.js",
+	"scripts": {
+		"test": "jest"
+	},
+	"devDependencies": {
+		"jest": "^30.0.5"
+	}
+}
