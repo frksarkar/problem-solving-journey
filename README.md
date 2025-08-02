@@ -23,4 +23,4 @@ npm test
 ## 📌 Platforms
 
 -   LeetCode
--   Codeforces (coming later)
+-   Codeforces
