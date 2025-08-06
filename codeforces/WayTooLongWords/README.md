@@ -9,26 +9,8 @@
 ## ❓ Problem Description
 
 Some words like "localization" or "internationalization" are so long that writing them repeatedly is tiresome.
-
+We can use an abbreviation to represent these words. The abbreviation of a word is formed by taking the first letter of the word and the number of letters that are not the first letter. For example, the abbreviation of "localization" is "l10n" and the abbreviation of "internationalization" is "i18n".
 A word is considered **too long** if its length is **strictly more than 10 characters**. All such words should be replaced with a special abbreviation.
-
-### 🔤 Abbreviation Rule:
-
--   Take the **first** letter.
--   Count the **number of characters between** the first and last letter.
--   Take the **last** letter.
--   Combine them: `first + count + last`
-
-### 🧪 Examples:
-
-| Word                                          | Output |
-| --------------------------------------------- | :----: |
-| word                                          |  word  |
-| localization                                  |  l10n  |
-| internationalization                          |  i18n  |
-| pneumonoultramicroscopicsilicovolcanoconiosis |  p43s  |
-
----
 
 ## ✅ Input
 
@@ -41,20 +23,30 @@ A word is considered **too long** if its length is **strictly more than 10 chara
 
 ---
 
-## 🧪 Sample Input
+### 🧪 Examples:
 
-    4
-    word
-    localization
-    internationalization
-    pneumonoultramicroscopicsilicovolcanoconiosis
+| Word                                          | Output |
+| --------------------------------------------- | :----: |
+| word                                          |  word  |
+| localization                                  |  l10n  |
+| internationalization                          |  i18n  |
+| pneumonoultramicroscopicsilicovolcanoconiosis |  p43s  |
 
-## ✅ Sample Output
+---
 
-    word
-    l10n
-    i18n
-    p43s
+<details>
+<summary> 💡 Solution Approach </summary>
+
+1. For each word:
+    - If its length ≤ 10 → Keep the word as is.
+    - Else → Replace it with:
+        - First letter
+        - Number of characters between first and last letter
+        - Last letter
+          Example: "localization" → "l10n"
+2. This can be done by using `word[0] + (word.length - 2) + word[word.length - 1]`.
+
+</details>
 
 ---
 
@@ -62,3 +54,9 @@ A word is considered **too long** if its length is **strictly more than 10 chara
 
 -   **Time Complexity:** O(n)
 -   **Space Complexity:** O(1)
+
+---
+
+## 🧠 Tags
+
+`string` `brute force`

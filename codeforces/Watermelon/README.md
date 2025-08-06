@@ -21,25 +21,32 @@ Pete and Billy want to divide a watermelon of weight `w` into two **even** parts
 
 ---
 
-## 💡 Solution
+### 🧪 Example
+
+| w   | Output |
+| --- | :----: |
+| 8   |  YES   |
+| 3   |   NO   |
+
+---
+
+<details>
+<summary> 💡 Solution Approach </summary>
 
 -   If the weight `w` is greater than 2 **and** is divisible by 2, it's possible.
 -   Otherwise, it's not.
 
-### Example:
+</details>
 
-Input: 8
-Output: YES
+---
 
-## 🧪 Test Cases:
+## 🕒 Time and Space Complexity
 
-```js
-canDivideWatermelon(8); // "YES"
-canDivideWatermelon(3); // "NO"
-canDivideWatermelon(4); // "YES"
-```
+-   **Time Complexity:** O(n)
+-   **Space Complexity:** O(1)
 
-## 🕒 Complexity:
+---
 
--   Time: O(1)
--   Space: O(1)
+## 🧠 Tags
+
+`math`
