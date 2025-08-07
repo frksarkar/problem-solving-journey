@@ -33,10 +33,10 @@ This repository contains my problem-solving practice using JavaScript.
 
 ## 🔵 Codeforces Problems
 
-| No. | Problem Title      | Difficulty | Topics          | Solution                                    | Status  |
-| --- | ------------------ | ---------- | --------------- | ------------------------------------------- | ------- |
-| 001 | Watermelon         | Easy       | Math, Condition | [View](./codeforces/001-watermelon)         | ✅ Done |
-| 002 | Way Too Long Words | Easy       | String          | [View](./codeforces/002-way-too-long-words) | ✅ Done |
+| No. | Problem Title      | Difficulty | Topics          | Solution                                   | Status  |
+| --- | ------------------ | ---------- | --------------- | ------------------------------------------ | ------- |
+| 001 | Watermelon         | Easy       | Math, Condition | [View](./codeforces/001-Watermelon)        | ✅ Done |
+| 002 | Way Too Long Words | Easy       | String          | [View](./codeforces/002-Waytoo-long-words) | ✅ Done |
 
 ---
 
