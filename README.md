@@ -61,6 +61,7 @@ npm test
 
 ## 🤝 Contributing
 
+<<<<<<< HEAD
 Want to add a new problem?
 Follow this structure:
 
@@ -73,3 +74,7 @@ Follow this structure:
 -   Write clean, commented code.
 -   Include Jest test cases.
     Make sure to add a link to the problem on the main README.md table.
+=======
+-   LeetCode
+-   Codeforces
+>>>>>>> ba7b961b5fcdb8f1520050214c2098dfe3828ee5
