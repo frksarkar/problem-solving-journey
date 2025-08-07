@@ -4,14 +4,14 @@ This repository contains my problem-solving practice using JavaScript.
 
 ## 📚 Table of Contents
 
-- [🧠 Problem Solving Journey](#-problem-solving-journey)
-  - [📚 Table of Contents](#-table-of-contents)
-  - [✅ Features](#-features)
-  - [🟠 LeetCode Problems](#-leetcode-problems)
-  - [🔵 Codeforces Problems](#-codeforces-problems)
-  - [🟢 HackerRank Problems](#-hackerrank-problems)
-  - [🛠️ How to run locally](#️-how-to-run-locally)
-  - [🤝 Contributing](#-contributing)
+-   [🧠 Problem Solving Journey](#-problem-solving-journey)
+    -   [📚 Table of Contents](#-table-of-contents)
+    -   [✅ Features](#-features)
+    -   [🟠 LeetCode Problems](#-leetcode-problems)
+    -   [🔵 Codeforces Problems](#-codeforces-problems)
+    -   [🟢 HackerRank Problems](#-hackerrank-problems)
+    -   [🛠️ How to run locally](#️-how-to-run-locally)
+    -   [🤝 Contributing](#-contributing)
 
 ## ✅ Features
 
@@ -61,7 +61,6 @@ npm test
 
 ## 🤝 Contributing
 
-<<<<<<< HEAD
 Want to add a new problem?
 Follow this structure:
 
@@ -74,7 +73,3 @@ Follow this structure:
 -   Write clean, commented code.
 -   Include Jest test cases.
     Make sure to add a link to the problem on the main README.md table.
-=======
--   LeetCode
--   Codeforces
->>>>>>> ba7b961b5fcdb8f1520050214c2098dfe3828ee5
