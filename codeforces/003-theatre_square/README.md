@@ -1,8 +1,6 @@
 # 003. Theatre Square (Codeforces)
 
-## 🔗 Link:
-
-[Codeforces - Watermelon](https://codeforces.com/problemset/problem/1/A)
+### 🔗 Link: [Codeforces - Watermelon](https://codeforces.com/problemset/problem/1/A)
 
 ## ❓ Problem
 
@@ -16,9 +14,7 @@ Theatre Square has a rectangular shape with the size `n x m` meters. to pave the
 
 -   number of flagstones needed to pave the entire square.
 
----
-
-## 🧪 Example
+### 🧪 Example
 
 | n   | m   | a   | Output |
 | --- | --- | --- | :----: |
@@ -40,8 +36,6 @@ Theatre Square has a rectangular shape with the size `n x m` meters. to pave the
 
 -   **Time Complexity:** O(n)
 -   **Space Complexity:** O(1)
-
----
 
 ## 🧠 Tags
 
