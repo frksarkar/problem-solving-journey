@@ -1,4 +1,4 @@
-function wayToLongWords(strArr) {
+export default function wayToLongWords(strArr) {
 	const arrLen = strArr.length;
 
 	for (let i = 1; i < arrLen; i++) {
@@ -11,5 +11,3 @@ function wayToLongWords(strArr) {
 	}
 	return strArr;
 }
-
-module.exports = wayToLongWords;

@@ -1,4 +1,4 @@
-const wayToLongWords = require('./solution');
+import wayToLongWords from './solution';
 
 describe('wayToLongWords', () => {
 	test('test_abbreviates_long_words', () => {

@@ -1,10 +1,6 @@
 # 002. Way Too Long Words (Codeforces)
 
-## 🔗 Link:
-
-[Codeforces - Way Too Long Words](https://codeforces.com/problemset/problem/71/A)
-
----
+### 🔗 Link: [Codeforces - Way Too Long Words](https://codeforces.com/problemset/problem/71/A)
 
 ## ❓ Problem Description
 
@@ -12,16 +8,14 @@ Some words like "localization" or "internationalization" are so long that writin
 We can use an abbreviation to represent these words. The abbreviation of a word is formed by taking the first letter of the word and the number of letters that are not the first letter. For example, the abbreviation of "localization" is "l10n" and the abbreviation of "internationalization" is "i18n".
 A word is considered **too long** if its length is **strictly more than 10 characters**. All such words should be replaced with a special abbreviation.
 
-## ✅ Input
+### ✅ Input
 
 -   First line: Integer `n` (1 ≤ n ≤ 100), the number of words.
 -   Next `n` lines: Each contains a word (1 to 100 lowercase Latin letters).
 
-## ✅ Output
+### ✅ Output
 
 -   For each input word, print the abbreviation or the word itself (if length ≤ 10).
-
----
 
 ### 🧪 Examples:
 
@@ -48,14 +42,10 @@ A word is considered **too long** if its length is **strictly more than 10 chara
 
 </details>
 
----
-
 ## 🕒 Time and Space Complexity
 
 -   **Time Complexity:** O(n)
 -   **Space Complexity:** O(1)
-
----
 
 ## 🧠 Tags
 
