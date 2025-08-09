@@ -1,10 +1,6 @@
 # 001. Watermelon (Codeforces)
 
-## 🔗 Link:
-
-[Codeforces - Watermelon](https://codeforces.com/problemset/problem/4/A)
-
----
+### 🔗 Link: [Codeforces - Watermelon](https://codeforces.com/problemset/problem/4/A)
 
 ## ❓ Problem
 
@@ -18,8 +14,6 @@ Pete and Billy want to divide a watermelon of weight `w` into two **even** parts
 
 -   Print `YES` if the watermelon can be divided into two even positive weights.
 -   Print `NO` otherwise.
-
----
 
 ### 🧪 Example
 
@@ -38,14 +32,10 @@ Pete and Billy want to divide a watermelon of weight `w` into two **even** parts
 
 </details>
 
----
-
 ## 🕒 Time and Space Complexity
 
 -   **Time Complexity:** O(n)
 -   **Space Complexity:** O(1)
-
----
 
 ## 🧠 Tags
 

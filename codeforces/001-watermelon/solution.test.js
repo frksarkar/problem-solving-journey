@@ -1,4 +1,4 @@
-const canDivideWatermelon = require('./solution');
+import canDivideWatermelon from './solution';
 
 describe('canDivideWatermelon', () => {
 	test('Watermelon divisible - case: 8', () => {
