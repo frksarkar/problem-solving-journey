@@ -1,38 +1,42 @@
-# 005. Next Round(Codeforces)
+# 005. Domino Piling(Codeforces)
 
-> ### 🔗 Link: [Codeforces - Next Round](https://codeforces.com/problemset/problem/158/A)
+> ### 🔗 Link: [Codeforces - Domino Piling](https://codeforces.com/problemset/problem/50/A)
 
 ## ❓ Problem
 
-Contestant who earns a score equal to or greater than the `k-th` place finisher's score will advance to the next round, as long as the contestant earns a positive score..." — an excerpt from contest rules.
+You are given a rectangular board of M × N squares. Also you are given an unlimited number of standard domino pieces of 2 × 1 squares. You are allowed to rotate the pieces. You are asked to place as many dominoes as possible on the board so as to meet the following conditions:
 
-A total of `n` participants took part in the contest `(n ≥ k)`, and you already know their scores. Calculate how many participants will advance to the next round.
+1. Each domino completely covers two squares.
+
+2. No two dominoes overlap.
+
+3. Each domino lies entirely inside the board. It is allowed to touch the edges of the board.
+
+Find the maximum number of dominoes, which can be placed under these restrictions.
 
 ### ✅ Input:
 
--   `n` - the number of participants
--   `k` - the number of the place finisher
--   `a_1, a_2, ..., a_n` - the scores of the participants
+-   The first line of the input contains two integers M and N (1 ≤ M ≤N ≤ 100).
 
 ### ✅ Output:
 
--   The number of participants who will advance to the next round
+-   Print a single integer — the maximum number of dominoes, which can be placed.
 
 ### 🧪 Example
 
-| Input                         | Output |
-| ----------------------------- | :----: |
-| n=5 , k=3 , a=[1, 2, 3, 4, 5] |   3    |
-| n=3 , k=2 , a=[1, 2, 3, 4, 5] |   2    |
-| n=4 , k=1 , a=[1, 2, 3, 4, 5] |   4    |
+| Input | Output |
+| ----- | :----: |
+| 3, 4  |   6    |
+| 5, 3  |   7    |
 
 ---
 
 <details>
  <summary> 💡 Solution Approach </summary>
 
--   Count the number of scores that are greater than or equal to `k`.
--   Return the count as the number of participants who will advance to the next round.
+1. Calculate the total number of squares on the board.
+2. Calculate the maximum number of dominoes that can be placed by dividing the total number of squares by 2.
+3. Return the maximum number of dominoes.
 
 </details>
 
