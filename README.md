@@ -4,14 +4,10 @@ This repository contains my problem-solving practice using JavaScript.
 
 ## 📚 Table of Contents
 
--   [🧠 Problem Solving Journey](#-problem-solving-journey)
-    -   [📚 Table of Contents](#-table-of-contents)
-    -   [✅ Features](#-features)
-    -   [🟠 LeetCode Problems](#-leetcode-problems)
-    -   [🔵 Codeforces Problems](#-codeforces-problems)
-    -   [🟢 HackerRank Problems](#-hackerrank-problems)
-    -   [🛠️ How to run locally](#️-how-to-run-locally)
-    -   [🤝 Contributing](#-contributing)
+-   [✅ Features](#-features)
+-   [🧭 Navigate to Problems:](#-navigate-to-problems)
+-   [🛠️ How to run locally](#️-how-to-run-locally)
+-   [🤝 Contributing](#-contributing)
 
 ## ✅ Features
 
@@ -20,49 +16,43 @@ This repository contains my problem-solving practice using JavaScript.
 -   🧪 Jest test cases
 -   🧠 Easy to practice and clone
 
----
+## 🧭 Navigate to Problems:
 
-## 🟠 LeetCode Problems
+-   ### 🟠 [LeetCode Problems](./leetcode/README.md)
 
-| No. | Problem Title     | Difficulty | Topics          | Solution                                 | Status  |
-| --- | ----------------- | ---------- | --------------- | ---------------------------------------- | ------- |
-| 001 | Two Sum           | Easy       | Hash Map, Array | [View](./leetcode/001-two-sum)           | ✅ Done |
-| 002 | Palindrome Number | Easy       | Math, String    | [View](./leetcode/002-palindrome-number) | ✅ Done |
+-   ### 🔵 [Codeforces Problems](./codeforces/README.md)
 
----
-
-## 🔵 Codeforces Problems
-
-| No. | Problem Title      | Difficulty | Topics          | Solution                                   | Status  |
-| --- | ------------------ | ---------- | --------------- | ------------------------------------------ | ------- |
-| 001 | Watermelon         | Easy       | Math, Condition | [View](./codeforces/001-Watermelon)        | ✅ Done |
-| 002 | Way Too Long Words | Easy       | String          | [View](./codeforces/002-Waytoo-long-words) | ✅ Done |
-
----
-
-## 🟢 HackerRank Problems
-
-| No. | Problem Title       | Difficulty | Topics      | Solution                                     | Status  |
-| --- | ------------------- | ---------- | ----------- | -------------------------------------------- | ------- |
-| 001 | Diagonal Difference | Easy       | Array, Math | [View](./hackerrank/001-diagonal-difference) | ✅ Done |
-
----
+-   ### 🟢 [HackerRank Problems](./hacker_rank)
 
 ## 🛠️ How to run locally
 
 1. Clone the repo:
 
-```bash
-git clone https://github.com/frksarkar/problem-solving-journey.git
-cd problem-solving-journey
-npm install
-npm test
-```
+    ```bash
+    git clone https://github.com/frksarkar/problem-solving-journey.git
+    ```
+
+2. Navigate to the project directory:
+
+    ```
+    cd problem-solving-journey
+    ```
+
+3. Install dependencies:
+
+    ```
+    npm install
+    ```
+
+4. Run the tests:
+
+    ```
+    npm test
+    ```
 
 ## 🤝 Contributing
 
-Want to add a new problem?
-Follow this structure:
+Want to add a new problem? Just create a new folder in the corresponding platform directory with this structure:
 
     platform/problem-number-problem-name/
         ├── solution.js
@@ -72,4 +62,3 @@ Follow this structure:
 -   Add problem details in main README.md table.
 -   Write clean, commented code.
 -   Include Jest test cases.
-    Make sure to add a link to the problem on the main README.md table.
