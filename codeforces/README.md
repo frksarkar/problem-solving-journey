@@ -9,3 +9,4 @@
 | 005 | Next Round         | Easy       | Array, Condition | [View](./005-next_round/README.md)         | ✅ Done |
 | 006 | Domino Piling      | Easy       | Math, Condition  | [View](./006-domino_piling/README.md)      | ✅ Done |
 | 007 | Football           | Easy       | Math, Condition  | [View](./007-football/README.md)           | ✅ Done |
+| 008 | Team               | Easy       | Array, Condition | [View](./008-team/README.md)               | ✅ Done |
