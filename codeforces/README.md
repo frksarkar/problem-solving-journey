@@ -10,3 +10,4 @@
 | 006 | Domino Piling      | Easy       | Math, Condition  | [View](./006-domino_piling/README.md)      | ✅ Done |
 | 007 | Football           | Easy       | Math, Condition  | [View](./007-football/README.md)           | ✅ Done |
 | 008 | Team               | Easy       | Array, Condition | [View](./008-team/README.md)               | ✅ Done |
+| 009 | Tram               | Easy       | Array, Condition | [View](./009-tram/README.md)               | -       |
