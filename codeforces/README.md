@@ -11,4 +11,6 @@
 | 007 | Football           | Easy       | Math, Condition  | [View](./007-football/README.md)           | ✅ Done |
 | 008 | Team               | Easy       | Array, Condition | [View](./008-team/README.md)               | ✅ Done |
 | 009 | Tram               | Easy       | Array, Condition | [View](./009-tram/README.md)               | ✅ Done |
-| 009 | Helpful Maths      | Easy       | String, Sorting, | [View](./010-helpful_maths/README.md)      | ✅ Done |
+| 010 | Helpful Maths      | Easy       | String, Sorting, | [View](./010-helpful_maths/README.md)      | ✅ Done |
+| 011 | Petya and Strings  | Easy       | String           | [View](./011-petya_and_strings/README.md)  | ✅ Done |
+| 012 | Beautiful Matrix   | Easy       | Math, Condition  | [View](./012-beautiful_matrix/README.md)   | ✅ Done |
