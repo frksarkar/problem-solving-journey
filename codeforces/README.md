@@ -15,3 +15,4 @@
 | 011 | Petya and Strings   | Easy       | String           | [View](./011-petya_and_strings/README.md)   | ✅ Done |
 | 012 | Beautiful Matrix    | Easy       | Math, Condition  | [View](./012-beautiful_matrix/README.md)    | ✅ Done |
 | 013 | Word Capitalization | Easy       | String           | [View](./013-word_capitalization/README.md) | ✅ Done |
+| 014 | Elephant            | Easy       | Math, Condition  | [View](./014-elephant/README.md)            | ✅ Done |
