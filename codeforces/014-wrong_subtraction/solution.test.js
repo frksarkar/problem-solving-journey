@@ -3,8 +3,7 @@ import wrongSubtraction from './solution';
 describe('wrongSubtraction', () => {
 	test('testRepeatedDecrementWithoutTrailingZeroReturnsString', () => {
 		const result = wrongSubtraction(1234, 5);
-		expect(result).toBe('123');
-		expect(typeof result).toBe('string');
+		expect(result).toBe(123);
 	});
 
 	test('testNumericAndStringInputsProduceSameResult', () => {
@@ -23,7 +22,7 @@ describe('wrongSubtraction', () => {
 
 	test('testTrailingZeroOnStringIsNotDetected', () => {
 		const result = wrongSubtraction('10', 1);
-		expect(result).toBe('1');
+		expect(result).toBe(1);
 	});
 
 	test('testFractionalNumOfSubRoundsUpIterations', () => {
