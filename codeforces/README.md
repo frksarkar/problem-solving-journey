@@ -16,3 +16,4 @@
 | 012 | Beautiful Matrix    | Easy       | Math, Condition  | [View](./012-beautiful_matrix/README.md)    | ✅ Done |
 | 013 | Word Capitalization | Easy       | String           | [View](./013-word_capitalization/README.md) | ✅ Done |
 | 014 | Elephant            | Easy       | Math, Condition  | [View](./014-elephant/README.md)            | ✅ Done |
+| 015 | Wrong Subtraction   | Easy       | Math, Condition  | [View](./014-wrong_subtraction/README.md)   | ✅ Done |
