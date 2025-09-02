@@ -1,6 +1,6 @@
-# 005. Tram (Codeforces)
+# 005. Petya and Strings (Codeforces)
 
-> ### 🔗 Link: [Codeforces - Tram](https://codeforces.com/problemset/problem/116/A)
+> ### 🔗 Link: [Codeforces - Tram](https://codeforces.com/problemset/problem/112/A)
 
 ## ❓ Problem
 
@@ -21,11 +21,11 @@ Little Petya loves presents. His mum bought him two strings of the same size for
 
 ### 🧪 Example
 
-| Input       | Output |
-| ----------- | :----: |
-| `abc` `Abc` |  `0`   |
-| `aA` `bB`   |  `1`   |
-| `abs` `Abz` |  `-1`  |
+| Input                 | Output |
+| --------------------- | :----: |
+| `abc` - `Abc`         |  `0`   |
+| `abcdefg` - `AbCdEfF` |  `1`   |
+| `abs` - `Abz`         |  `-1`  |
 
 ---
 
