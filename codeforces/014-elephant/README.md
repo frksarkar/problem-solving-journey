@@ -38,4 +38,4 @@ An elephant decided to visit his friend. It turned out that the elephant's house
 
 ## 🧠 Tags
 
-`brute-force` `greedy`
+`math` `condition`
