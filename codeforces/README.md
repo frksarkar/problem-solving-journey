@@ -16,6 +16,6 @@
 | 012 | Beautiful Matrix    | Easy       | Math, Condition                     | [View](./012-beautiful_matrix/README.md)    | ✅ Done |
 | 013 | Word Capitalization | Easy       | String                              | [View](./013-word_capitalization/README.md) | ✅ Done |
 | 014 | Elephant            | Easy       | Math, Condition                     | [View](./014-elephant/README.md)            | ✅ Done |
-| 015 | Wrong Subtraction   | Easy       | brute force, greedy                 | [View](./014-wrong_subtraction/README.md)   | ✅ Done |
+| 015 | Wrong Subtraction   | Easy       | brute force, greedy                 | [View](./015-wrong_subtraction/README.md)   | ✅ Done |
 | 016 | B++                 | Easy       | greedy, implementation              | [View](./016-b_plus_plus/README.md)         | ✅ Done |
 | 017 | Boy or Girl         | Easy       | string, implementation, brute force | [View](./017-boy_or_girl/README.md)         | ✅ Done |
